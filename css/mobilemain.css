@@ -11,6 +11,12 @@ video {
   gap: 1rem;
 }
 
+div.content {
+  width: 175px;
+  position: relative;
+  left: 775px;
+}
+
 .hero {
   font-size: 150%;
   text-align: center;
@@ -18,49 +24,58 @@ video {
   background-color: lightgray;
 }
 
-a {
-  color: black;
-  text-decoration: none;
+.Search-button {
+  width: 15%;
+  height: 15%;
+  position: relative;
+  left: 90px;
+  top: 10px;
+  border: 1px solid black;
+}
+
+.Hamburger-button {
+  width: 15%;
+  height: 15%;
+  position: relative;
+  left: 127px;
+  top: -11px;
+  border: 1px solid black;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-.Search-button {
-  width: 5%;
-  height: 5%;
-  position: relative;
-  left: 1500px;
-  border: 2px solid black;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-.menus {
-  padding: 4rem;
-  align-content: center;
+.h1 {
+  font-size: 33%;
+  position: relative;
+  left: -35px;
+  top: -40px;
 }
 
 .header-image {
-  width: 75%;
-  height: 75%;
+  width: 90%;
+  height: 90%;
   position: relative;
-  left: 190px;
+  left: 8px;
+  top: -20px;
 }
 
 .paragraph {
-  padding-left: 20rem;
-  padding-right: 20rem;
   text-align: left;
+  font-size: 33%;
 }
 
 .introduction {
-  padding-left: 20rem;
-  padding-right: 20rem;
   text-align: left;
-}
-
-.paragraph-link {
-  color: #2200cc;
+  font-size: 50%;
+  position: relative;
+  top: -20px;
 }
 
 .paragraph-lebron {
@@ -72,11 +87,11 @@ a:hover {
 }
 
 .lebron-image {
-  width: 25%;
-  height: 25%;
+  width: 65%;
+  height: 65%;
   position: relative;
-  left: 830px;
-  top: -150px;
+  left: 25px;
+  top: 20px;
 }
 
 .paragraph-ballmer {
@@ -94,12 +109,12 @@ a:hover {
 }
 
 .NBA-image {
-  width: 25%;
-  height: 25%;
+  width: 65%;
+  height: 65%;
   position: relative;
-  left: 830px;
-  top: -275px;
-  border: 2px solid black;
+  left: 25px;
+  top: 20px;
+  border: 1px solid black;
 }
 
 .paragraph-Clippers {
@@ -111,36 +126,41 @@ a:hover {
 }
 
 .paragraph-IRS {
-  padding-left: 20rem;
-  padding-right: 20rem;
   text-align: left;
   position: relative;
-  top: -175px;
+  top: 15px;
+  font-size: 33%;
+  padding-bottom: 1rem;
+}
+
+.paragraph-link {
+  color: #2200cc;
 }
 
 footer {
   text-align: center;
   position: relative;
-  top: 100px;
-  font-size: 75%;
+  top: 15px;
+  font-size: 5px;
+  padding-bottom: 1rem;
 }
 
 .Subscribe-image {
-  width: 25%;
-  height: 25%;
+  width: 40%;
+  height: 40%;
   position: relative;
-  top: -50px;
-  left: 50px;
-  border: 2px solid black;
+  top: 10px;
+  left: -10px;
+  border: 1px solid black;
 }
 
 .Socials-image {
-  width: 25%;
-  height: 25%;
+  width: 40%;
+  height: 40%;
   position: relative;
-  top: -105px;
-  left: 1100px;
-  border: 2px solid black;
+  top: -3px;
+  left: 95px;
+  border: 1px solid black;
 }
 
 /* Mobile Only Styles */
