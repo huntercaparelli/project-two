@@ -40,11 +40,19 @@ a:hover {
   align-content: center;
 }
 
-.header-image {
-  width: 75%;
-  height: 75%;
+.bobblehead-image {
+  border: 2px solid black;
+  width: 70%;
+  height: 70%;
   position: relative;
-  left: 190px;
+  left: 250px;
+}
+
+.Image-caption {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: left;
+  font-size: 85%;
 }
 
 .paragraph {
@@ -53,92 +61,90 @@ a:hover {
   text-align: left;
 }
 
-.introduction {
+.Sports-Owners-vs-Athletes {
   padding-left: 20rem;
   padding-right: 20rem;
   text-align: left;
+}
+
+.baseball-image {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  left: 375px;
 }
 
 .paragraph-link {
   color: #2200cc;
 }
 
-.paragraph-lebron {
+.paragraph-baseball {
   padding-left: 20rem;
   padding-right: 50rem;
   text-align: left;
-  position: relative;
-  top: 60px;
 }
 
-.lebron-image {
-  width: 25%;
-  height: 25%;
+.concessions-image {
+  width: 30%;
+  height: 30%;
   position: relative;
   left: 830px;
+  top: -400px;
+}
+
+.paragraph-billionaires {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: left;
+  position: relative;
+  top: -260px;
+}
+
+.paragraph-ProPublica {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: left;
+  position: relative;
+  top: -210px;
+}
+
+.paragraph-Steve {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: left;
+  position: relative;
   top: -150px;
 }
 
-.paragraph-ballmer {
-  padding-left: 20rem;
-  padding-right: 20rem;
-  text-align: left;
+.basketball-money {
+  width: 50%;
+  height: 50%;
   position: relative;
-  top: -50px;
+  left: 375px;
+  top: -150px;
 }
 
-.paragraph-NBA {
-  padding-left: 20rem;
-  padding-right: 50rem;
-  text-align: left;
-}
-
-.NBA-image {
-  width: 25%;
-  height: 25%;
+.Staples-Center {
+  width: 40%;
+  height: 40%;
   position: relative;
-  left: 830px;
-  top: -275px;
-  border: 2px solid black;
-}
-
-.paragraph-Clippers {
-  padding-left: 20rem;
-  padding-right: 20rem;
-  text-align: left;
-  position: relative;
-  top: -220px;
-}
-
-.paragraph-IRS {
-  padding-left: 20rem;
-  padding-right: 20rem;
-  text-align: left;
-  position: relative;
-  top: -175px;
+  left: 460px;
+  top: -100px;
 }
 
 footer {
   text-align: center;
   position: relative;
-  top: 100px;
+  top: 150px;
   font-size: 75%;
-}
-
-.Subscribe-image {
-  width: 25%;
-  height: 25%;
-  position: relative;
-  top: -50px;
-  left: 50px;
-  border: 2px solid black;
+  padding-bottom: 10rem;
 }
 
 .Socials-image {
   width: 25%;
   height: 25%;
   position: relative;
-  top: -105px;
+  top: -100px;
   left: 1100px;
   border: 2px solid black;
 }

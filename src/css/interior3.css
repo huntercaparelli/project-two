@@ -40,11 +40,19 @@ a:hover {
   align-content: center;
 }
 
-.header-image {
-  width: 75%;
-  height: 75%;
+.value-image {
+  border: 2px solid black;
+  width: 70%;
+  height: 70%;
   position: relative;
-  left: 190px;
+  left: 250px;
+}
+
+.Image-caption {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: left;
+  font-size: 85%;
 }
 
 .paragraph {
@@ -53,7 +61,7 @@ a:hover {
   text-align: left;
 }
 
-.introduction {
+.Increased-Value-Of-Leagues {
   padding-left: 20rem;
   padding-right: 20rem;
   text-align: left;
@@ -63,46 +71,28 @@ a:hover {
   color: #2200cc;
 }
 
-.paragraph-lebron {
-  padding-left: 20rem;
-  padding-right: 50rem;
-  text-align: left;
+.football-field {
+  width: 50%;
+  height: 50%;
   position: relative;
-  top: 60px;
+  left: 390px;
 }
 
-.lebron-image {
-  width: 25%;
-  height: 25%;
-  position: relative;
-  left: 830px;
-  top: -150px;
-}
-
-.paragraph-ballmer {
-  padding-left: 20rem;
-  padding-right: 20rem;
-  text-align: left;
-  position: relative;
-  top: -50px;
-}
-
-.paragraph-NBA {
+.paragraph-Golden {
   padding-left: 20rem;
   padding-right: 50rem;
   text-align: left;
 }
 
-.NBA-image {
-  width: 25%;
-  height: 25%;
+.hockey-arena {
+  width: 32%;
+  height: 32%;
   position: relative;
-  left: 830px;
-  top: -275px;
-  border: 2px solid black;
+  left: 800px;
+  top: -330px;
 }
 
-.paragraph-Clippers {
+.paragraph-Knights {
   padding-left: 20rem;
   padding-right: 20rem;
   text-align: left;
@@ -110,35 +100,26 @@ a:hover {
   top: -220px;
 }
 
-.paragraph-IRS {
-  padding-left: 20rem;
-  padding-right: 20rem;
-  text-align: left;
+.One-on-One {
+  width: 45%;
+  height: 45%;
   position: relative;
-  top: -175px;
+  left: 450px;
+  top: -200px;
 }
 
 footer {
   text-align: center;
   position: relative;
-  top: 100px;
+  top: -10px;
   font-size: 75%;
-}
-
-.Subscribe-image {
-  width: 25%;
-  height: 25%;
-  position: relative;
-  top: -50px;
-  left: 50px;
-  border: 2px solid black;
 }
 
 .Socials-image {
   width: 25%;
   height: 25%;
   position: relative;
-  top: -105px;
+  top: -100px;
   left: 1100px;
   border: 2px solid black;
 }

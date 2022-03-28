@@ -1,0 +1,193 @@
+/* Decent Defaults */
+
+img,
+video {
+  width: 200;
+  height: 300;
+}
+
+/* Share Styles (Apply On All Sizes) */
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+div.content {
+  width: 175px;
+  position: relative;
+  left: 775px;
+}
+
+.hero {
+  font-size: 150%;
+  text-align: center;
+  padding: 1rem;
+  background-color: lightgray;
+}
+
+.Search-button {
+  width: 15%;
+  height: 15%;
+  position: relative;
+  left: 90px;
+  top: 10px;
+  border: 1px solid black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.Hamburger-button {
+  width: 15%;
+  height: 15%;
+  position: relative;
+  left: 127px;
+  top: -11px;
+  border: 1px solid black;
+}
+
+.h1 {
+  font-size: 33%;
+  position: relative;
+  left: -35px;
+  top: -40px;
+  color: black;
+}
+
+.Strategy-image {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  left: 8px;
+  top: -20px;
+}
+
+.Image-caption {
+  text-align: left;
+  font-size: 50%;
+  position: relative;
+  top: -10px;
+}
+
+.Under-caption {
+  text-align: left;
+  font-size: 25%;
+}
+
+.How-This-Is-Taking-Place {
+  text-align: left;
+  font-size: 50%;
+  position: relative;
+  top: -10px;
+}
+
+.paragraph {
+  text-align: left;
+  font-size: 33%;
+}
+
+.paragraph-stadium {
+  padding-left: 20rem;
+  padding-right: 50rem;
+  text-align: left;
+}
+
+.stadium-image {
+  width: 75%;
+  height: 75%;
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+
+.paragraph-Khan {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: left;
+  position: relative;
+  top: -200px;
+}
+
+.paragraph-Video {
+  padding-left: 20rem;
+  padding-right: 50rem;
+  text-align: left;
+  position: relative;
+  top: -130px;
+}
+
+.video {
+  position: relative;
+  top: 10px;
+  right: 0;
+  bottom: 0;
+  left: -3px;
+  overflow: hidden;
+  max-width: 150px;
+  height: 90px;
+}
+
+.paragraph-revelations {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: left;
+  position: relative;
+  top: -340px;
+}
+
+.paragraph-link {
+  color: #2200cc;
+}
+
+.paragraph-records {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: left;
+  position: relative;
+  top: -325px;
+}
+
+.paragraph-last {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: left;
+  position: relative;
+  top: -310px;
+}
+
+footer {
+  text-align: left;
+  position: relative;
+  top: 20px;
+  font-size: 5px;
+  padding-bottom: 1rem;
+}
+
+.Socials-image {
+  width: 40%;
+  height: 40%;
+  position: relative;
+  top: -5px;
+  left: 95px;
+  border: 1px solid black;
+}
+
+/* Mobile Only Styles */
+@media (max-width: 47.9375em) {
+  .flex {
+    flex-direction: column;
+  }
+}
+
+/* Desktop Only Styles */
+@media (min-width: 48em) {
+  .flex > * {
+    width: 100%;
+  }
+}
